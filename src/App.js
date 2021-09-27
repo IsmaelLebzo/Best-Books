@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from './Header';
-import IsLoadingAndError from './IsLoadingAndError';
+// import IsLoadingAndError from './IsLoadingAndError';
 import Footer from './Footer';
 import BestBooks from './BestBooks';
 import Profile from './components/Profile';
-import LoginButton from './components/LoginButton';
+import Login from './Login';
 import { withAuth0 } from '@auth0/auth0-react';
 
 import {
@@ -21,18 +21,18 @@ class App extends React.Component {
     return(
       <>
         <Router>
-          <IsLoadingAndError>
+          {/* <IsLoadingAndError> */}
             <Header />
             <Switch>
               <Route exact path="/">
-                {isAuthenticated ? <BestBooks/> : <LoginButton/>}
+                {isAuthenticated ? <BestBooks/> : <Login/>}
               </Route>
               <Route exact path = "/profile">
                 <Profile/>
                 </Route>
             </Switch>
             <Footer />
-          </IsLoadingAndError>
+          {/* </IsLoadingAndError> */}
         </Router>
       </>
     );
