@@ -5,16 +5,16 @@ import { Link } from "react-router-dom";
 import './Header.css';
 import LogoutButton from './components/LogoutButton';
 import { withAuth0 } from '@auth0/auth0-react';
+import LoginButton from './components/LoginButton';
 
 class Header extends React.Component {
   render() {
-    const {isAuthenticated, loginWithRedirect} = this.props.auth0;
     return(
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand>My Favorite Books</Navbar.Brand>
         <Link to="/">Home</Link>
         <Link to="/profile">Profile</Link>
-        {!isAuthenticated ? <button onClick ={loginWithRedirect}>Login!</button> : <LogoutButton/>}
+        {this.props.isAuthenticated ? <LoginButton/> : <LogoutButton/>}
       </Navbar>
     );
   }
