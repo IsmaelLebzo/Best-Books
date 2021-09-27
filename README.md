@@ -1,11 +1,35 @@
-# Start your own "Can of Books" App
+# Best-Books
 
-This repository has starter code to begin work on creating your own online bookshelf.
+**Author**: Ismael Ramadan
+**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
-## What can books do?
+## Overview
 
-Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
+Site where the user can login and see his user name and email and can logout
 
-## Use this template
+## Getting Started
 
-Clone this repo to your own account with the green "Use this template" button. Then, add any collaborators. Now you are ready to start adding features! Deploy your site to let the world know which books have had the greatest impact on you, and what's recommended. Enjoy!
+get the code from the repo and add the stuff that need to be added
+
+## Architecture
+
+React, Auth0
+
+## Change Log
+
+App is facing some probs need to solve them ASAP
+
+## Credit and Collaborations
+
+https://github.com/LTUC/amman-301d33/tree/master/class-11/demo/class11-demo
+
+
+Name of feature: React, Auth0
+
+Estimate of time needed to complete: 1 Hour
+
+Start time: 3:00
+
+Finish time: 4:15
+
+Actual time needed to complete: 1:15
