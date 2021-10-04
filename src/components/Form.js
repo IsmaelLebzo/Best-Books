@@ -1,5 +1,5 @@
 import React from "react";
-import Form from 'react-bootstrap/Form'
+import Form from 'react-bootstrap/Form';
 import { withAuth0 } from '@auth0/auth0-react';
 
 class FormInfo extends React.Component{
