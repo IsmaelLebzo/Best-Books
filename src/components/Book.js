@@ -3,10 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-class Books extends React.Component{
-    render(){
-        return(
-            <>
+class Books extends React.Component {
+  render() {
+    return (
+      <>
         <Card>
           <Card.Header>Books</Card.Header>
           <Card.Body>
@@ -20,9 +20,9 @@ class Books extends React.Component{
             </Card.Text>
             <Button> X </Button>
           </Card.Body>
-        </Card>       
-            </>
-        )
-    }
+        </Card>
+      </>
+    )
+  }
 }
 export default Books;
